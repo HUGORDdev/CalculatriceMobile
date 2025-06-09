@@ -73,3 +73,77 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+# ========================
+# 📦 Dépendances
+# ========================
+node_modules/
+package-lock.json
+yarn.lock
+
+# ========================
+# ⚙️ Builds Android/iOS
+# ========================
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+
+# ========================
+# 💻 IDE et système
+# ========================
+.vscode/
+.idea/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
+
+# ========================
+# 🔒 Fichiers sensibles
+# ========================
+.env
+.env.local
+.env.*.local
+*.keystore
+*.jks
+*.p12
+
+# ========================
+# 🔄 Logs et caches
+# ========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+metro-cache/
+react-native-packager-cache-*
+.expo/
+.expo-shared/
+tmp/
+.cache/
+*.log
+
+# ========================
+# 🧪 Tests et coverage
+# ========================
+coverage/
+jest-results.json
+
+# ========================
+# 💥 Système d'exploitation
+# ========================
+# macOS
+*.DS_Store
+
+# Windows
+*.log
+*.tmp
+*.bak
+*.swp
+ehthumbs.db
+Desktop.ini
+
